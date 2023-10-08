@@ -11,6 +11,12 @@
 		3E6FB3FC2AAC440F00C6FBFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FB3FB2AAC440F00C6FBFF /* ContentView.swift */; };
 		3E6FB3FE2AAC441100C6FBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6FB3FD2AAC441100C6FBFF /* Assets.xcassets */; };
 		3E6FB4012AAC441100C6FBFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6FB4002AAC441100C6FBFF /* Preview Assets.xcassets */; };
+		3E6FB40A2AAC58FF00C6FBFF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FB4092AAC58FF00C6FBFF /* LoginView.swift */; };
+		3EA44B802AC49D8200600B39 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA44B7F2AC49D8200600B39 /* SignInView.swift */; };
+		3ECA9CF32AD1DD48003A24B8 /* termsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA9CF22AD1DD48003A24B8 /* termsAndConditionsView.swift */; };
+		3ECA9CF72AD1E5B0003A24B8 /* imageHPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA9CF62AD1E5B0003A24B8 /* imageHPView.swift */; };
+		3ECA9CF92AD1E8B6003A24B8 /* TapBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA9CF82AD1E8B6003A24B8 /* TapBarButtonView.swift */; };
+		3ECA9CFB2AD1EEBD003A24B8 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA9CFA2AD1EEBD003A24B8 /* ProfilePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3E6FB3FB2AAC440F00C6FBFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E6FB3FD2AAC441100C6FBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E6FB4002AAC441100C6FBFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E6FB4092AAC58FF00C6FBFF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3EA44B7F2AC49D8200600B39 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3ECA9CF22AD1DD48003A24B8 /* termsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = termsAndConditionsView.swift; sourceTree = "<group>"; };
+		3ECA9CF62AD1E5B0003A24B8 /* imageHPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageHPView.swift; sourceTree = "<group>"; };
+		3ECA9CF82AD1E8B6003A24B8 /* TapBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarButtonView.swift; sourceTree = "<group>"; };
+		3ECA9CFA2AD1EEBD003A24B8 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,11 @@
 		3E6FB3ED2AAC440F00C6FBFF = {
 			isa = PBXGroup;
 			children = (
+				3ECA9CFA2AD1EEBD003A24B8 /* ProfilePageView.swift */,
+				3ECA9CF22AD1DD48003A24B8 /* termsAndConditionsView.swift */,
+				3ECA9CF62AD1E5B0003A24B8 /* imageHPView.swift */,
+				3ECA9CF82AD1E8B6003A24B8 /* TapBarButtonView.swift */,
+				3EA44B7F2AC49D8200600B39 /* SignInView.swift */,
 				3E6FB3F82AAC440F00C6FBFF /* one */,
 				3E6FB3F72AAC440F00C6FBFF /* Products */,
 			);
@@ -53,6 +70,7 @@
 			children = (
 				3E6FB3F92AAC440F00C6FBFF /* oneApp.swift */,
 				3E6FB3FB2AAC440F00C6FBFF /* ContentView.swift */,
+				3E6FB4092AAC58FF00C6FBFF /* LoginView.swift */,
 				3E6FB3FD2AAC441100C6FBFF /* Assets.xcassets */,
 				3E6FB3FF2AAC441100C6FBFF /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECA9CF72AD1E5B0003A24B8 /* imageHPView.swift in Sources */,
+				3ECA9CFB2AD1EEBD003A24B8 /* ProfilePageView.swift in Sources */,
+				3E6FB40A2AAC58FF00C6FBFF /* LoginView.swift in Sources */,
 				3E6FB3FC2AAC440F00C6FBFF /* ContentView.swift in Sources */,
+				3ECA9CF32AD1DD48003A24B8 /* termsAndConditionsView.swift in Sources */,
+				3ECA9CF92AD1E8B6003A24B8 /* TapBarButtonView.swift in Sources */,
+				3EA44B802AC49D8200600B39 /* SignInView.swift in Sources */,
 				3E6FB3FA2AAC440F00C6FBFF /* oneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
