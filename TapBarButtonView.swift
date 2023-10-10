@@ -10,7 +10,8 @@ import SwiftUI
 struct TapBarButtonView: View {
     var image: String
     var isSystemImage : Bool
-    var animation: Namespace.ID
+
+    
     @Binding var selectedTab: String
     
     var body: some View {
@@ -32,7 +33,7 @@ struct TapBarButtonView: View {
                     if selectedTab == image {
                         Rectangle()
                             .fill(Color.primary)
-                            .matchedGeometryEffect(id: "TAB", in: animation)
+    
                     } else {
                         Rectangle()
                             .fill(Color.clear)
@@ -50,6 +51,6 @@ struct TapBarButtonView: View {
 
 struct TapBarButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        TapBarButtonView()
+        TapBarButtonView(image: "", isSystemImage: true,  selectedTab: .constant(""))
     }
 }

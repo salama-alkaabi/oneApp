@@ -13,11 +13,11 @@ struct imageHPView: View {
     var body: some View {
        
         VStack{
-            let imageName = index > 10 ? index - (10 * (index / 10)) == 0 ? 10 : index - 10 (10 (index, / 10)) : index
+            let imageName = "logo"
             
             Image("post\(imageName)")
                 .resizable()
-                .aspectRatio(contentMode: ContentMode: .fill)
+                .aspectRatio(contentMode: .fill)
                 .frame(width: width, height: 120)
             cornerRadius(0)
         }
