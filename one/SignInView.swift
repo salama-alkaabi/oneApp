@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  RegisterView.swift
 //  one
 //
 //  Created by sal on 09/09/2023.
@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct SignInView: View {
     
     @State private var username = ""
     @State private var password = ""
-    @State private var isLoggedIn = false
-    
+    @State private var isSignedIn = false
+
     var body: some View {
+        
         NavigationView {
             VStack {
                 
@@ -40,9 +41,9 @@ struct LoginView: View {
 
                 Button(action: {
                    
-                    isLoggedIn = true
+                    isSignedIn = true
                 }) {
-                    Text("Login")
+                    Text("Sign In")
                     
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -59,16 +60,15 @@ struct LoginView: View {
                 .padding()
 
 
-
                 Spacer()
             }
-            .navigationBarTitle("Login")
+            .navigationBarTitle("Sign in")
         }
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        SignInView()
     }
 }
